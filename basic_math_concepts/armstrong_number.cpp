@@ -12,14 +12,20 @@ int checkArmstrong(int n, int len)
   {
     int rem = n % 10;
     n = n / 10;
-    sum += pow(rem, len);
+
+    int power = 1;
+    for(int i=0; i<len; i++){
+      power*=rem;
+    }
+    
+    sum += power;
   }
   return sum;
 }
 
 int main()
 {
-  int n = 0;
+  int n;
   cout << "Enter any number: ";
   cin >> n;
   int temp = n;
