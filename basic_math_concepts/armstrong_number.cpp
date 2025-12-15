@@ -41,5 +41,5 @@ int main()
   return 0;
 }
 
-// Time Complexity - O(d log d)
+// Time Complexity - O(d²)
 // Space Complexity - O(1)
