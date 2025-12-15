@@ -21,4 +21,4 @@ int main()
 }
 
 // Time Complexity - O(n)
-// Space Complexity - O(n) due to stack space waiting for founction to return value
+// Space Complexity - O(n) due to stack space waiting for functions to return value

@@ -28,7 +28,7 @@ int main()
   return 0;
 }
 
-// In Big-O notation, constants are ignored. so we write O(n/2) ≈ )(n)
+// In Big-O notation, constants are ignored. so we write O(n/2) ≈ O(n)
 
 // Time Complexity - O(n)
 // Space Complexity - O(n)
